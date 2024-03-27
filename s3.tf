@@ -32,9 +32,6 @@ resource "aws_s3_bucket" "s3" {
     }
   }
 
-
-
-  tags      = merge({ "Name" = each.key }, var.tags)
 }
 
 
