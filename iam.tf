@@ -13,7 +13,5 @@ resource "aws_iam_role" "replication" {
         }
       ]
     })
-    tags = var.tags
-
     # Add any additional configurations for the IAM role
   }
